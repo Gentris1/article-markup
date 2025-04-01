@@ -1,4 +1,10 @@
 /* Тут пиши основные стили */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
 .container {
     width: 700px;
     margin: 0 auto;
@@ -38,6 +44,7 @@ header img {
     width: 97px;
     margin: 10px 37px;
 }
+
 h1, h2 {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     font-size: 42px;
@@ -61,13 +68,36 @@ img {
     width: 100%;
     margin: 43px 0 37px;
 }
+
 code {
     font-family: "Courier New", monospace;
     background-color: #f4f4f4;
     padding: 2px;
 }
+
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    .container {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    li {
+        display: list-item;
+        margin: 5px;
+    }
+
+    h1 {
+        font-size: 26px;
+        line-height:28px;
+    }
+
+    h2 {
+        font-size: 22px;
+        line-height:39px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height:22px;
+    }
 }
