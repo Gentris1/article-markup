@@ -3,8 +3,41 @@
     width: 700px;
     margin: 0 auto;
     padding-bottom: 95px;
+
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+    margin: 10px 15px;
 }
 
+.current {
+    color: red;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+nav {
+    background-color: #FAF9F8;
+    padding: 0 20px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+header img {
+    width: 97px;
+    margin: 10px 37px;
+}
 h1, h2 {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     font-size: 42px;
